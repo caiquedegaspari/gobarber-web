@@ -1,11 +1,11 @@
 import React, { useCallback } from 'react';
 import { Background, Container, Content } from './style';
 import logo from '../../assets/logo.svg'
-import { FiLogIn, FiMail, FiLock, FiUser, FiArrowLeft } from 'react-icons/fi'
+import { FiMail, FiLock, FiUser, FiArrowLeft } from 'react-icons/fi'
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 import * as Yup from 'yup';
-import { FormHandles } from '@unform/core';
+import { FormHandles } from '@unform/core'; 
 import { Form } from '@unform/web';
 import { useRef } from 'react';
 import getValidationErrors from '../../utils/getValidationErrors';
